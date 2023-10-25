@@ -1,0 +1,58 @@
+{
+	"name": "Folha de eventos 3",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 945635474690354,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "AprovarSarah"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 437863893677606,
+					"parameters": {
+						"layout": "Acertou Sarah"
+					}
+				}
+			],
+			"sid": 275355350330055
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 863871724922930,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "ReprovarSarah"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 102098539932954,
+					"parameters": {
+						"layout": "Errado"
+					}
+				}
+			],
+			"sid": 812512374241848
+		}
+	],
+	"sid": 912214088918246
+}

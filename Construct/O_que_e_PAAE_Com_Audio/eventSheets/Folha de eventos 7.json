@@ -1,0 +1,32 @@
+{
+	"name": "Folha de eventos 7",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 833294446598942,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "finalizar"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 335030864600200,
+					"parameters": {
+						"layout": "Menu"
+					}
+				}
+			],
+			"sid": 321078276048909
+		}
+	],
+	"sid": 309263740138585
+}

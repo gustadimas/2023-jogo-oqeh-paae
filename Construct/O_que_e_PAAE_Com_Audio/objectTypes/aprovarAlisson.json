@@ -1,0 +1,64 @@
+{
+	"name": "aprovarAlisson",
+	"plugin-id": "Sprite",
+	"sid": 980179741022882,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 375,
+						"height": 150,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7284259,
+						"collisionPoly": {
+							"points": [
+								0.13333333333333333,
+								0.08,
+								0.8826666666666667,
+								0.1,
+								0.9173333333333333,
+								0.14666666666666667,
+								0.9786666666666667,
+								0.3933333333333333,
+								0.944,
+								0.8333333333333334,
+								0.856,
+								0.96,
+								0.06133333333333333,
+								0.88,
+								0.04,
+								0.8266666666666667,
+								0.008,
+								0.6533333333333333,
+								0.008,
+								0.38666666666666666,
+								0.07733333333333334,
+								0.13333333333333333
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 950290893517769,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

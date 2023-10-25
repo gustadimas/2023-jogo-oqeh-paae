@@ -1,0 +1,430 @@
+{
+	"name": "Eventos Menu",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 944970732247513,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "botaoNovoJogo"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 491945146048045,
+					"parameters": {
+						"layout": "TelaIntroducaoJogo"
+					}
+				}
+			],
+			"sid": 879646517468365
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 189480135738932,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "botaoRegras"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 565828778130102,
+					"parameters": {
+						"layout": "Regras"
+					}
+				}
+			],
+			"sid": 741521700474946
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 484573929583132,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "botaoConfiguracoes"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 241833092442318,
+					"parameters": {
+						"layout": "Configurações"
+					}
+				}
+			],
+			"sid": 437967653509168
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 458346144531847,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "botaoCreditos"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 238129259398542,
+					"parameters": {
+						"layout": "Créditos"
+					}
+				}
+			],
+			"sid": 669034048729447
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 679420938912346,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "botaoSair"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 347617493435708
+				}
+			],
+			"sid": 544516149208889
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 776783549281596,
+					"parameters": {
+						"object": "botaoNovoJogo"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-size",
+					"objectClass": "botaoNovoJogo",
+					"sid": 141015891351361,
+					"parameters": {
+						"width": "410.602676 ",
+						"height": "175.010977"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 151315858776309,
+					"parameters": {
+						"seconds": "0.1"
+					}
+				},
+				{
+					"id": "set-size",
+					"objectClass": "botaoNovoJogo",
+					"sid": 623227948832933,
+					"parameters": {
+						"width": "373.378897 ",
+						"height": "159.145104"
+					}
+				}
+			],
+			"sid": 173082219151717
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 327305875929634,
+					"parameters": {
+						"object": "botaoRegras"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-size",
+					"objectClass": "botaoRegras",
+					"sid": 889068938153679,
+					"parameters": {
+						"width": "438.763854  ",
+						"height": " 252.040779"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 565596596595018,
+					"parameters": {
+						"seconds": "0.1"
+					}
+				},
+				{
+					"id": "set-size",
+					"objectClass": "botaoRegras",
+					"sid": 192263743818163,
+					"parameters": {
+						"width": "417.763854 ",
+						"height": "235.040779"
+					}
+				}
+			],
+			"sid": 573164530440142
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 493673918129083,
+					"parameters": {
+						"object": "botaoConfiguracoes"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-size",
+					"objectClass": "botaoConfiguracoes",
+					"sid": 918024884293529,
+					"parameters": {
+						"width": "370.890125 ",
+						"height": "165.845178"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 475435889870343,
+					"parameters": {
+						"seconds": "0.1"
+					}
+				},
+				{
+					"id": "set-size",
+					"objectClass": "botaoConfiguracoes",
+					"sid": 545029779783856,
+					"parameters": {
+						"width": "353.744503",
+						"height": " 158.178436"
+					}
+				}
+			],
+			"sid": 365725597784810
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 301404705472945,
+					"parameters": {
+						"object": "botaoSair"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-size",
+					"objectClass": "botaoSair",
+					"sid": 991948064188608,
+					"parameters": {
+						"width": "375.260546 ",
+						"height": "170.572976"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 901762262583852,
+					"parameters": {
+						"seconds": "0.1"
+					}
+				},
+				{
+					"id": "set-size",
+					"objectClass": "botaoSair",
+					"sid": 106424319796372,
+					"parameters": {
+						"width": "360.574221",
+						"height": " 163.897373"
+					}
+				}
+			],
+			"sid": 387779829948321
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 438699492766717,
+					"parameters": {
+						"object": "botaoCreditos"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-size",
+					"objectClass": "botaoCreditos",
+					"sid": 339841768131502,
+					"parameters": {
+						"width": "375.260546 ",
+						"height": "170.572976"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 826338932135854,
+					"parameters": {
+						"seconds": "0.1"
+					}
+				},
+				{
+					"id": "set-size",
+					"objectClass": "botaoCreditos",
+					"sid": 447675271011360,
+					"parameters": {
+						"width": "344.065511",
+						"height": "128.682326"
+					}
+				}
+			],
+			"sid": 292524206802405
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 223023887177216,
+					"disabled": true
+				}
+			],
+			"actions": [],
+			"sid": 664209303971138,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-tag-playing",
+							"objectClass": "Áudio",
+							"sid": 933059172773578,
+							"disabled": true,
+							"parameters": {
+								"tag": "\"Music\""
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "play-by-name",
+							"objectClass": "Áudio",
+							"sid": 826792642490784,
+							"disabled": true,
+							"parameters": {
+								"folder": "sounds",
+								"audio-file-name": "\"Musica\"",
+								"loop": "not-looping",
+								"volume": "0.8",
+								"stereo-pan": "0",
+								"tag-optional": "\"Music\""
+							}
+						}
+					],
+					"sid": 869300445581136
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 320023994171619
+						}
+					],
+					"actions": [
+						{
+							"id": "stop-all",
+							"objectClass": "Áudio",
+							"sid": 808839609012885
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 792403538922324,
+							"parameters": {
+								"seconds": "0.2"
+							}
+						},
+						{
+							"id": "play-by-name",
+							"objectClass": "Áudio",
+							"sid": 712392134935853,
+							"parameters": {
+								"folder": "sounds",
+								"audio-file-name": "\"Musica\"",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"Music\""
+							}
+						}
+					],
+					"sid": 567331977096768,
+					"disabled": true
+				}
+			]
+		}
+	],
+	"sid": 329369158407264
+}

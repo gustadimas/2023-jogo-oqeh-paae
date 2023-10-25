@@ -1,0 +1,32 @@
+{
+	"name": "Folha de eventos 8",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 670063358118313,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "introdu2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 282725437567502,
+					"parameters": {
+						"layout": "Alisson Decisão"
+					}
+				}
+			],
+			"sid": 760141070101676
+		}
+	],
+	"sid": 557362448949000
+}

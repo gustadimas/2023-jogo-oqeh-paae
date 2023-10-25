@@ -1,0 +1,56 @@
+{
+	"name": "Eventos Configurações",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 685384087416766,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "VoltarConfig"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 917955347019334,
+					"parameters": {
+						"layout": "Menu"
+					}
+				}
+			],
+			"sid": 934100825457680
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 596678842151512,
+					"disabled": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-volume",
+					"objectClass": "Áudio",
+					"sid": 318738375661750,
+					"disabled": true,
+					"parameters": {
+						"tag": "\"Music\"",
+						"db": "BarraDeslizante2.Value - 20"
+					}
+				}
+			],
+			"sid": 760371647180082
+		}
+	],
+	"sid": 648618956964895
+}

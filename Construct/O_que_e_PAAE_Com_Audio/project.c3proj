@@ -1,0 +1,355 @@
+{
+	"projectFormatVersion": 1,
+	"savedWithRelease": 35800,
+	"name": "O que é, PAAE",
+	"runtime": "c3",
+	"useWorker": "auto",
+	"bundleAddons": false,
+	"usedAddons": [
+		{
+			"type": "plugin",
+			"id": "Audio",
+			"name": "Áudio",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Button",
+			"name": "Botão",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Mouse",
+			"name": "Mouse",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Sprite",
+			"name": "Sprite",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Spritefont2",
+			"name": "Fonte de sprites",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Texto",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "sliderbar",
+			"name": "Barra deslizante",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Sin",
+			"name": "Senóide",
+			"author": "Scirra",
+			"bundled": false
+		}
+	],
+	"uniqueId": "pe4alokytr0",
+	"objectTypes": {
+		"items": [
+			"Sprite",
+			"botaoNovoJogo",
+			"botaoSair",
+			"botaoContinuar",
+			"botaoConfiguracoes",
+			"Mouse",
+			"botaoCreditos",
+			"Sprite2",
+			"continuar1",
+			"BarraDeslizante",
+			"Sprite3",
+			"Sprite4",
+			"BarraDeslizante2",
+			"Texto",
+			"Sprite5",
+			"botaoAprovar",
+			"botaoReprovar",
+			"Sprite6",
+			"Sprite7",
+			"Sprite8",
+			"Sprite9",
+			"Áudio",
+			"sommmr",
+			"Sprite10",
+			"Sprite11",
+			"Sprite12",
+			"Sprite13",
+			"Botão",
+			"Sprite14",
+			"Sprite15",
+			"AprovarSarah",
+			"ReprovarSarah",
+			"Sprite16",
+			"Sprite17",
+			"Sprite18",
+			"Sprite19",
+			"Sprite20",
+			"paraMenu",
+			"Sprite22",
+			"continuar2",
+			"continuar3",
+			"finalizar",
+			"Sprite26",
+			"introdu1",
+			"introdu2",
+			"Sprite29",
+			"aprovarAlisson",
+			"reprovarAlisson",
+			"Sprite32",
+			"introdu3",
+			"Sprite34",
+			"aprovarTeteu",
+			"reprovarTeteu",
+			"Sprite37",
+			"VoltarConfig",
+			"FonteDeSprites",
+			"voltarCreditos",
+			"Sprite21",
+			"VoltarRegras",
+			"botaoRegras"
+		],
+		"subfolders": []
+	},
+	"autosaveData": null,
+	"containers": [],
+	"families": {
+		"items": [],
+		"subfolders": []
+	},
+	"layouts": {
+		"items": [
+			"Menu",
+			"TelaIntroducaoJogo",
+			"Novo Jogo e Continuar",
+			"Configurações",
+			"Créditos",
+			"TelaErro",
+			"TelaAcertos",
+			"Sarah Gamboa - Introducao",
+			"Sarah Gamboa - Decisao",
+			"Errado",
+			"Acertou Sarah",
+			"Acertou Alisson",
+			"Acertou Matheus",
+			"Alisson Introdução",
+			"Alisson Decisão",
+			"Matheus Introdução",
+			"Matheus Decisão",
+			"Regras"
+		],
+		"subfolders": []
+	},
+	"eventSheets": {
+		"items": [
+			"Eventos Menu",
+			"Eventos Jogar",
+			"Eventos Configurações",
+			"Eventos Creditos",
+			"EventosErro&Acerto",
+			"Folha de eventos 1",
+			"Folha de eventos 2",
+			"Folha de eventos 3",
+			"Folha de eventos 4",
+			"Folha de eventos 5",
+			"Folha de eventos 6",
+			"Folha de eventos 7",
+			"Folha de eventos 8",
+			"Folha de eventos 9",
+			"Folha de eventos 10",
+			"Folha de eventos 11",
+			"Folha de eventos 12"
+		],
+		"subfolders": []
+	},
+	"rootFileFolders": {
+		"script": {
+			"items": [],
+			"subfolders": []
+		},
+		"sound": {
+			"items": [],
+			"subfolders": []
+		},
+		"music": {
+			"items": [
+				{
+					"name": "Musica.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 768088184201207,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Victory.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 144144659668633,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
+			"subfolders": []
+		},
+		"video": {
+			"items": [],
+			"subfolders": []
+		},
+		"font": {
+			"items": [],
+			"subfolders": []
+		},
+		"icon": {
+			"items": [
+				{
+					"name": "icon-16.png",
+					"type": "image/png",
+					"sid": 527566405140222,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-32.png",
+					"type": "image/png",
+					"sid": 381885133625350,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-64.png",
+					"type": "image/png",
+					"sid": 863889332545733,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-128.png",
+					"type": "image/png",
+					"sid": 320305257691117,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "loading-logo.png",
+					"type": "image/png",
+					"sid": 970356428003899,
+					"icon-info": {
+						"purpose": "loading-logo"
+					}
+				},
+				{
+					"name": "icon-256.png",
+					"type": "image/png",
+					"sid": 141435332094447,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-512.png",
+					"type": "image/png",
+					"sid": 830392088846684,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				}
+			],
+			"subfolders": []
+		},
+		"general": {
+			"items": [],
+			"subfolders": []
+		}
+	},
+	"timelines": {
+		"items": [
+			"Linha do tempo 1"
+		],
+		"subfolders": [
+			{
+				"items": [],
+				"subfolders": []
+			}
+		]
+	},
+	"properties": {
+		"description": "",
+		"version": "1.0.0.0",
+		"author": "",
+		"authorEmail": "",
+		"authorWebsite": "",
+		"appId": "",
+		"pixelRounding": false,
+		"zAxisScale": "normalized",
+		"fov": 0.7853981633974483,
+		"useLoaderLayout": false,
+		"fullscreenMode": "letterbox-scale",
+		"fullscreenQuality": "high",
+		"viewportFit": "auto",
+		"backgroundColor": [
+			0,
+			0,
+			0,
+			0
+		],
+		"splashColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"useThemeColor": false,
+		"themeColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"orientations": "landscape",
+		"webgpu": "auto",
+		"gpuPreference": "high-performance",
+		"scriptsType": "module",
+		"framerateMode": "vsync",
+		"compositingMode": "standard",
+		"sampling": "trilinear",
+		"downscaling": "medium",
+		"renderingMode": "auto",
+		"anisotropicFiltering": "auto",
+		"zNear": 1,
+		"zFar": 10000,
+		"maxSpriteSheetSize": 2048,
+		"loaderStyle": "splash",
+		"preloadSounds": true,
+		"cordovaiOSScheme": "app",
+		"cordovaAndroidScheme": "https",
+		"autoReloadScriptsOnPreview": false,
+		"exportFileStructure": "folders",
+		"uidAllocationMode": "increment"
+	},
+	"viewportWidth": 1920,
+	"viewportHeight": 1080,
+	"firstLayout": null
+}

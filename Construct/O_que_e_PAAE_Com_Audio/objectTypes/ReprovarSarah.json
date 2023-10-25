@@ -1,0 +1,60 @@
+{
+	"name": "ReprovarSarah",
+	"plugin-id": "Sprite",
+	"sid": 215060436046790,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 373,
+						"height": 141,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4324886,
+						"collisionPoly": {
+							"points": [
+								0.14209115281501342,
+								0.014184397163120567,
+								0.9168900804289544,
+								0.06382978723404255,
+								0.9919571045576407,
+								0.624113475177305,
+								0.938337801608579,
+								0.8652482269503546,
+								0.871313672922252,
+								0.950354609929078,
+								0.08847184986595175,
+								0.900709219858156,
+								0.06970509383378017,
+								0.8652482269503546,
+								0.058981233243967826,
+								0.1276595744680851,
+								0.0777479892761394,
+								0.0851063829787234
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 464656478029434,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

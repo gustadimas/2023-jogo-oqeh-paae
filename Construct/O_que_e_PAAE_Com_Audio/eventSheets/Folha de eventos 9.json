@@ -1,0 +1,58 @@
+{
+	"name": "Folha de eventos 9",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 414294922840593,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "aprovarAlisson"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 191785802234599,
+					"parameters": {
+						"layout": "Acertou Alisson"
+					}
+				}
+			],
+			"sid": 509917238070710
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 624629335394215,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "reprovarAlisson"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 310327866976863,
+					"parameters": {
+						"layout": "Errado"
+					}
+				}
+			],
+			"sid": 824982997995016
+		}
+	],
+	"sid": 505017788971134
+}

@@ -1,0 +1,32 @@
+{
+	"name": "Folha de eventos 5",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 947950407777407,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "continuar2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 175949109248859,
+					"parameters": {
+						"layout": "Alisson Introdução"
+					}
+				}
+			],
+			"sid": 214933903853312
+		}
+	],
+	"sid": 780954840496447
+}

@@ -1,0 +1,50 @@
+{
+	"name": "botaoRegras",
+	"plugin-id": "Sprite",
+	"sid": 522283546103586,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 641,
+						"height": 389,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2886133,
+						"collisionPoly": {
+							"points": [
+								0.13884555382215288,
+								0.2647814910025707,
+								0.8190327613104524,
+								0.2982005141388175,
+								0.797191887675507,
+								0.6838046272493573,
+								0.11856474258970359,
+								0.6426735218508998
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 193458946855343,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

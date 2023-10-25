@@ -1,0 +1,16 @@
+{
+	"name": "BarraDeslizante2",
+	"plugin-id": "sliderbar",
+	"sid": 433984502631849,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "Volume",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 165789948526015
+		}
+	],
+	"behaviorTypes": []
+}

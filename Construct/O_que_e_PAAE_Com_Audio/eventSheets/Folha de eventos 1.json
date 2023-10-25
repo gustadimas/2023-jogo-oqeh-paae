@@ -1,0 +1,32 @@
+{
+	"name": "Folha de eventos 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 621888465938603,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "botaoContinuar"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 685495751473548,
+					"parameters": {
+						"layout": "Novo Jogo e Continuar"
+					}
+				}
+			],
+			"sid": 890239241432160
+		}
+	],
+	"sid": 567633827450388
+}

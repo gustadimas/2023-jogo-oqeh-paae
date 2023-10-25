@@ -1,0 +1,155 @@
+{
+	"name": "Eventos Jogar",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 677762373400893,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "botaoAprovar"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 847601030113170,
+					"parameters": {
+						"layout": "TelaErro"
+					}
+				}
+			],
+			"sid": 240280955481546
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 735981788929520,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "botaoReprovar"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 530965067582636,
+					"parameters": {
+						"layout": "TelaAcertos"
+					}
+				},
+				{
+					"id": "play-by-name",
+					"objectClass": "Áudio",
+					"sid": 907257904322086,
+					"parameters": {
+						"folder": "sounds",
+						"audio-file-name": "\"Victory\"",
+						"loop": "not-looping",
+						"volume": "30",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 647602332043162
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 608943202159413,
+					"parameters": {
+						"object": "botaoReprovar"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-size",
+					"objectClass": "botaoReprovar",
+					"sid": 148648871513064,
+					"parameters": {
+						"width": "375.260546 ",
+						"height": "170.572976"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 692281019911030,
+					"parameters": {
+						"seconds": "0.1"
+					}
+				},
+				{
+					"id": "set-size",
+					"objectClass": "botaoReprovar",
+					"sid": 359263528936659,
+					"parameters": {
+						"width": "277.833283",
+						"height": "112.067207"
+					}
+				}
+			],
+			"sid": 226455617452563
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 881924476197340,
+					"parameters": {
+						"object": "botaoAprovar"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-size",
+					"objectClass": "botaoAprovar",
+					"sid": 789896196632195,
+					"parameters": {
+						"width": "375.260546 ",
+						"height": "170.572976"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 428477123259170,
+					"parameters": {
+						"seconds": "0.1"
+					}
+				},
+				{
+					"id": "set-size",
+					"objectClass": "botaoAprovar",
+					"sid": 599978278314775,
+					"parameters": {
+						"width": "277.833283",
+						"height": "112.067207"
+					}
+				}
+			],
+			"sid": 417258669582739
+		}
+	],
+	"sid": 720690416278337
+}

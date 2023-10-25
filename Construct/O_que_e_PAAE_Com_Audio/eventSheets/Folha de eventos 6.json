@@ -1,0 +1,32 @@
+{
+	"name": "Folha de eventos 6",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 615769466027343,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "continuar3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 903979552025557,
+					"parameters": {
+						"layout": "Matheus Introdução"
+					}
+				}
+			],
+			"sid": 768088674851652
+		}
+	],
+	"sid": 901680935382801
+}

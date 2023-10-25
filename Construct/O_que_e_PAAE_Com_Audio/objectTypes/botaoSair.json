@@ -1,0 +1,64 @@
+{
+	"name": "botaoSair",
+	"plugin-id": "Sprite",
+	"sid": 825039089918887,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 528,
+						"height": 240,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3264826,
+						"collisionPoly": {
+							"points": [
+								0.17424242424242425,
+								0.125,
+								0.8428030303030303,
+								0.1875,
+								0.8598484848484849,
+								0.225,
+								0.8882575757575758,
+								0.5416666666666666,
+								0.8598484848484849,
+								0.6833333333333333,
+								0.7803030303030303,
+								0.7833333333333333,
+								0.10984848484848485,
+								0.725,
+								0.08901515151515152,
+								0.6791666666666667,
+								0.0625,
+								0.5416666666666666,
+								0.0625,
+								0.36666666666666664,
+								0.09090909090909091,
+								0.225
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 853079864209747,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

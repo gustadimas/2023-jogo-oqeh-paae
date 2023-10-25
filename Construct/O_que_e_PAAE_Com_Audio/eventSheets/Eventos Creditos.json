@@ -1,0 +1,32 @@
+{
+	"name": "Eventos Creditos",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 564488025937950,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "voltarCreditos"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 346221813640052,
+					"parameters": {
+						"layout": "Menu"
+					}
+				}
+			],
+			"sid": 212563604788243
+		}
+	],
+	"sid": 829438506308527
+}

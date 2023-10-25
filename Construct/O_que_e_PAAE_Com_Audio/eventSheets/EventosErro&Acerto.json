@@ -1,0 +1,100 @@
+{
+	"name": "EventosErro&Acerto",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 376695219085311,
+					"parameters": {
+						"object": "continuar1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-size",
+					"objectClass": "continuar1",
+					"sid": 229632874729589,
+					"parameters": {
+						"width": "483.918809 ",
+						"height": "281.345647"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 701577336036551,
+					"parameters": {
+						"seconds": "0.1"
+					}
+				},
+				{
+					"id": "set-size",
+					"objectClass": "continuar1",
+					"sid": 144519407951921,
+					"parameters": {
+						"width": "412.918809 ",
+						"height": "231.345647"
+					}
+				}
+			],
+			"sid": 244533569424726
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 225225965549484,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "continuar1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 922412094456027,
+					"parameters": {
+						"layout": "Sarah Gamboa - Introducao"
+					}
+				}
+			],
+			"sid": 678163341683702
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 301213397218441,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Sprite37"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 800401695229539,
+					"parameters": {
+						"layout": "Regras"
+					}
+				}
+			],
+			"sid": 241823207470232
+		}
+	],
+	"sid": 261009709383912
+}

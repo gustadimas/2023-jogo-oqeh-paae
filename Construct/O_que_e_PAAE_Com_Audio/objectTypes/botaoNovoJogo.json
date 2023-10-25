@@ -1,0 +1,64 @@
+{
+	"name": "botaoNovoJogo",
+	"plugin-id": "Sprite",
+	"sid": 447043371149586,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Sin",
+			"name": "Senóide",
+			"sid": 214783903124444
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 488,
+						"height": 208,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9887598,
+						"collisionPoly": {
+							"points": [
+								0.15163934426229508,
+								0.07211538461538461,
+								0.875,
+								0.14423076923076922,
+								0.8934426229508197,
+								0.1875,
+								0.8934426229508197,
+								0.7163461538461539,
+								0.8073770491803278,
+								0.8317307692307693,
+								0.08196721311475409,
+								0.7644230769230769,
+								0.05942622950819672,
+								0.7115384615384616,
+								0.06147540983606557,
+								0.1875
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 604872779163106,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

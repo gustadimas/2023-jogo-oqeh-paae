@@ -1,0 +1,32 @@
+{
+	"name": "Folha de eventos 2",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 122888369620966,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "introdu1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 741064537898677,
+					"parameters": {
+						"layout": "Sarah Gamboa - Decisao"
+					}
+				}
+			],
+			"sid": 770025066412294
+		}
+	],
+	"sid": 512497187185217
+}

@@ -1,0 +1,58 @@
+{
+	"name": "Folha de eventos 11",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 132227589547207,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "aprovarTeteu"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 610489353905213,
+					"parameters": {
+						"layout": "Errado"
+					}
+				}
+			],
+			"sid": 434498393326591
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 625604938037507,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "reprovarTeteu"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 941624815104778,
+					"parameters": {
+						"layout": "Acertou Matheus"
+					}
+				}
+			],
+			"sid": 108989939580406
+		}
+	],
+	"sid": 834011266392521
+}

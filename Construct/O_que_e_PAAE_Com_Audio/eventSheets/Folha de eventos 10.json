@@ -1,0 +1,32 @@
+{
+	"name": "Folha de eventos 10",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 451663589193633,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "introdu3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 592988247171963,
+					"parameters": {
+						"layout": "Matheus Decisão"
+					}
+				}
+			],
+			"sid": 580831305776925
+		}
+	],
+	"sid": 959762021239609
+}
